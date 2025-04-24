@@ -54,7 +54,7 @@
       <input value="{{ old('name', $user->name) }}" type="text" name="name" placeholder="Username" required/>
       <input value="{{ old('email' ,$user->email ) }}" type="email" name="email" placeholder="email" required/>
       <input type="password" name="password" placeholder="Password" required/>
-      <button type="submit">Register</button>
+      <button type="submit">Update</button>
     </form>
 
 
